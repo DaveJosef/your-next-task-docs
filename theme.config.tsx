@@ -1,8 +1,8 @@
 import React from 'react'
-import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
+import { DocsThemeConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
 
-const config: DocsThemeConfig = {
+const config = {
   logo: <strong>Your Next Task</strong>,
   useNextSeoProps() {
     return {
@@ -72,6 +72,6 @@ const config: DocsThemeConfig = {
     },
   },
   faviconGlyph: '✔'
-}
+} as DocsThemeConfig
 
 export default config
