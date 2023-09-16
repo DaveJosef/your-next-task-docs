@@ -1,0 +1,13 @@
+{
+  "index": "Your Next Task",
+  "about": {
+    "title": "Sobre",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contato ↗",
+    "type": "page",
+    "href": "mailto://josedaaaaavid@gmail.com",
+    "newWindow": true
+  }
+}
