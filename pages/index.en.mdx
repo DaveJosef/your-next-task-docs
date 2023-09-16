@@ -1,0 +1,65 @@
+import Banner from '../components/banner1.tsx'
+import CenterImg from '../components/centerImg.tsx'
+import InlineImg from '../components/inlineImg.tsx'
+import AddBtn from '../components/addBtn.tsx'
+import addTaskImg from '../assets/add-pane.png'
+import addBtnImg from '../assets/add-btn.png'
+import updateBtnImg from '../assets/opt-rename.png'
+import deleteBtnImg from '../assets/opt-delete.png'
+import updateDialogImg from '../assets/update-todo-dialog.png'
+import deleteDialogImg from '../assets/delete-todo-dialog.png'
+import taskListImg from '../assets/todo-list.png'
+import todoCardImg from '../assets/todo-card.png'
+import smartphonePreviewImg from '../assets/smartphone-preview.png'
+
+<Banner />
+
+# ✔ Introduction
+
+Welcome to the Official Documentation for Your Next Task. Here we will together explore its main features.
+
+## ✔ Add Task
+
+<CenterImg src={addTaskImg.src} />
+
+You can add a task to the task list by clicking <AddBtn alt="Botão de Adicionar Tarefa" src={addBtnImg.src} />
+
+The name inserted into the field of same panel will be associated to the name of the new task added to the list.
+The task list works as a queue, model in which the last task inserted will be located at the end of the list.
+
+<CenterImg src={taskListImg.src} />
+
+## ✔ Update Task
+
+Once added to the list, in the case you have informed the wrong name to certain task, it will not be necessary to delete it: just click the update task icon <InlineImg alt="Ícone de Atualizar Tarefa" src={updateBtnImg.src} />
+
+An update task modal will show up.
+
+<CenterImg src={updateDialogImg.src} />
+
+Finally, you will only need to inform the task name, click OK and it will be updated.
+
+## ✔ Delete Task
+
+The app counts on the Task Deletion Feature. In order to do so, you only need to navigate until the task of which removal will be realized and click the delete task icon <InlineImg alt="Ícone de Remover Tarefa" src={deleteBtnImg.src} />
+
+<CenterImg src={todoCardImg.src} />
+
+and, therefore, confim.
+
+<CenterImg src={deleteDialogImg.src} />
+
+The task will be deleted successfully from the list ✔
+
+## ✔ Responsiveness
+
+The app is responsive as well and it adapts from portrait to wider screens.
+
+<CenterImg src={smartphonePreviewImg.src} />
+
+## ✔ Try it now
+
+You can try the app in this [Link](https://your-next-task.vercel.app/).
+Thank you for seeing until here!
+
+**What will be Your Next Task?**

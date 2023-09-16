@@ -1,0 +1,65 @@
+import Banner from '../components/banner1.tsx'
+import CenterImg from '../components/centerImg.tsx'
+import InlineImg from '../components/inlineImg.tsx'
+import AddBtn from '../components/addBtn.tsx'
+import addTaskImg from '../assets/add-pane.png'
+import addBtnImg from '../assets/add-btn.png'
+import updateBtnImg from '../assets/opt-rename.png'
+import deleteBtnImg from '../assets/opt-delete.png'
+import updateDialogImg from '../assets/update-todo-dialog.png'
+import deleteDialogImg from '../assets/delete-todo-dialog.png'
+import taskListImg from '../assets/todo-list.png'
+import todoCardImg from '../assets/todo-card.png'
+import smartphonePreviewImg from '../assets/smartphone-preview.png'
+
+<Banner />
+
+# ✔ Introdução
+
+Bem-vindo a Documentação oficial de Your Next Task. Aqui exploraremos juntos suas principais funcionalidades.
+
+## ✔ Adicionar Tarefa
+
+<CenterImg src={addTaskImg.src} />
+
+Você pode adicionar uma tarefa à lista de tarefas clicando em <AddBtn alt="Botão de Adicionar Tarefa" src={addBtnImg.src} />
+
+O nome inserido no campo do mesmo painel será atribuido ao nome da nova tarefa adicionada na lista.
+A lista de tarefas funciona como uma fila, modelo no qual a última tarefa adicionada é inserida no final da lista.
+
+<CenterImg src={taskListImg.src} />
+
+## ✔ Atualizar Tarefa
+
+Uma vez adicionada à lista, caso você tenha informado um nome errado à tarefa, não se faz necessário excluir a mesma: basta clicar no ícone de atualizar tarefa <InlineImg alt="Ícone de Atualizar Tarefa" src={updateBtnImg.src} />
+
+Um Modal de atualização de tarefa se abrirá.
+
+<CenterImg src={updateDialogImg.src} />
+
+Finalmente, basta informar o nome da Tarefa, clicar em OK e ela será atualizada.
+
+## ✔ Remover Tarefa
+
+O aplicativo conta com a funcionalidade de excluir a tarefa. Para excluir, basta navegar até a tarefa cuja remoção será realizada e clicar no ícone de excluir <InlineImg alt="Ícone de Remover Tarefa" src={deleteBtnImg.src} />
+
+<CenterImg src={todoCardImg.src} />
+
+E então confirmar.
+
+<CenterImg src={deleteDialogImg.src} />
+
+A tarefa será excluída com sucesso da lista ✔
+
+## ✔ Responsividade
+
+O aplicativo é responsivo e se adapta a desde formatos verticais a telas mais abertas.
+
+<CenterImg src={smartphonePreviewImg.src} />
+
+## ✔ Experimente Agora
+
+Você pode testar o aplicativo nesse [Link](https://your-next-task.vercel.app/).
+Obrigado por ver até aqui!
+
+**Qual será a sua próxima tarefa?**
